@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Person person = new Person("lia", Gender.WOMAN, EyeColor.BROWN,Pet.CAT);
+        System.out.println(person.toString());
+        //System.out.println(person.getGender().getNemetNem());
     }
 }
